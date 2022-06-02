@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- นันทกร แสงเทียน -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@1,200&family=Pridi&display=swap" rel="stylesheet">
+    <style>
+    .jumbotron{
+        font-family:Pridi;
+        position: relative;
+        overflow: hidden;
+
+
+    }
+    video{
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .container{
+        z-index: 2;
+        position: relative;
+    }
+</style>
+    <title>30-js-bootstrap-template.html</title>
+</head>
+<body style="background-image: url(https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?cs=srgb&dl=pexels-abdullah-ghatasheh-1631677.jpg&fm=jpg)">
+    <div class="jumbotron jumbotron-fluid   mb-0" >
+        <video src="https://cdn.videvo.net/videvo_files/video/free/2020-05/large_watermarked/200422%20_Digital%20Media%20Icons_02_4k_004_preview.mp4" autoplay loop muted ></video>
+        <div class="container">
+        <h1 class= h1 text-light  style=" font-family:'KoHo' ">Nantakorn</h1>
+        <p class="lead" h3 text-light>This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger style font-family:'Pridi' ">
+        <a class="navbar-brand" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-moon-stars-fill" viewBox="0 0 16 16">
+                <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+                <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+            </svg>
+            Sun</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-expanded="false">
+                Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+            </li>
+            </ul>
+            <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div>
+    </nav>
+    
+    <div class="container"> 
+        <div class="d-flex justify-content-center">
+
+            <div class="card" style="width: 30rem;">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/002/558/929/small/black-and-blue-layers-above-each-other-header-modern-material-design-with-a-hexagonal-pattern-abstract-widescreen-banner-vector.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                <h5 class="card-title"> กรุณาป้อนตัวเลข</h5>
+                <p class="card-text">
+                    <!-- <form> -->
+                        <div class="row">
+                        <div class="col">
+                            <input type="text" name="num1" id="num1" class="form-control" placeholder="num1">
+                        </div>
+                        <div class="col">
+                            <input type="text" name="num2" id="num2" class="form-control" placeholder="num2">
+                        </div>
+                        </div>
+                    <!-- </form> -->
+                    </p>
+                    <button type="button" class="btn btn-dark" onclick="sum_number()">Submid</button>
+                    <button type="button" class="btn btn-danger">Reset</button>
+                <p id ="output"></p>
+
+                <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <footer class="fixed-bottom">
+        <div class="alert alert-danger mb-0 text-center" role="alert" style= "font-family:'KoHo';">
+            นันทกร แสงเทียน
+        </div>
+        <div class="p-3 mb-2 bg-warning text-dark text-center "   style="font-family:'KoHo';">เทคโนโลยีสารสนเทศ</div>
+    </footer>
+    <!-- <script>
+        function sum_number() {
+            document.getElementById('output').innerHTML =
+            +document.getElementById('num1').value + + document.getElementById('num2').value
+            
+        }
+    </script> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+</body>
+</html>
